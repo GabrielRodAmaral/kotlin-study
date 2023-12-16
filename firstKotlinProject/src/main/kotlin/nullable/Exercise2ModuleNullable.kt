@@ -11,6 +11,6 @@ package nullable
 fun exerciseTwoNullable() {
 
     // O toIntOrNull retorna null se a conversão não for possivel
-    print(readln().toIntOrNull() ?: 2.times(2).times(2).minus(10))
+    print((readln().toIntOrNull() ?: 2).times(2).times(2).minus(10))
 
 }
