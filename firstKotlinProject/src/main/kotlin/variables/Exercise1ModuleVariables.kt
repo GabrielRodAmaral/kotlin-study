@@ -9,6 +9,10 @@ import java.util.*
     informações (use string templates para montar a frase).
  */
 
+fun main() {
+    exerciseOneVariables()
+}
+
 fun exerciseOneVariables() {
     print("Informe o seu nome: ")
     val userName = readln()

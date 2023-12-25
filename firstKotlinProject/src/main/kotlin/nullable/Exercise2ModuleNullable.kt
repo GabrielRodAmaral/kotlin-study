@@ -8,6 +8,9 @@ package nullable
     O programa deve calcular o valor do número e mostrá-lo na tela em uma única expressão.
  */
 
+fun main() {
+    exerciseTwoNullable()
+}
 fun exerciseTwoNullable() {
 
     // O toIntOrNull retorna null se a conversão não for possivel

@@ -1,11 +1,17 @@
 package repeating
 
+import operators.exerciseTwoOperators
+
 /*
     Exercício
 
     Imprima na tela a tabuada de um número de 1 a 10. O número deve ser fornecido pelo usuário.
     Utilize a estrutura de repetição for para resolver o exercício
  */
+
+fun main() {
+    exerciseTwoRepeating()
+}
 
 fun exerciseTwoRepeating() {
 

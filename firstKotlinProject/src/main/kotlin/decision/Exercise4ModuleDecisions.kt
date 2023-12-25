@@ -14,6 +14,10 @@ package decision
     > Resultado: 24
  */
 
+fun main() {
+    exerciseFourDecisions()
+}
+
 fun exerciseFourDecisions() {
 
     print("> ")

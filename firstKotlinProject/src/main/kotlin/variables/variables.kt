@@ -5,6 +5,8 @@ import java.util.*
 /*
     Declaração de variáveis
 
+
+ */
     //var counter: Int
     //counter = 10
 
@@ -15,7 +17,6 @@ import java.util.*
 
     //val counter2 = 10
     /*Val cria uma constante*/
-    */
 
     // Variáveis em blocos
     // Sempre que eu defino uma variável dentro de um bloco ela existe apenas naquele bloco
@@ -54,6 +55,41 @@ import java.util.*
     val d1 = i1.toDouble()
     println(d1)
 */
+
+/*
+const val => quando você declara uma val global o ideal é declarar como const val, isso irá te dar um ganho
+de performance porque ele vai declarar essa variável na fase de compilação sem necessidade de acessala em tempo
+de execução
+*/
+
+fun main() {
+    // Aqui chamo uma função explicando como converter tipo de variáveis númericas
+    tradingtypevariables()
+
+    // Aqui chamo uma função que explica variáveis númericas unsigned
+    nosignalorvaluevariables()
+
+    // Aqui chamo uma função que explica declaração de variáveis booleanas no kotlin
+    booleanvariables()
+
+    // Aqui chamo uma função explicando variáveis char no kotlin
+    // explica também .inc(), .dec(), .isDigit(), isUpperCase(), isLowerCase(), .digitToInt()
+    charvariables()
+
+    // Aqui chamo uma função explicando variáveis String no kotlin
+    // explica também .length
+    stringvariables()
+
+    // Aqui chamo uma função explicando String literals no kotlin
+    // explica também \n e uso da \, .trimIndent(), .trimMargin(), raw strings
+    stringliterals()
+
+
+    // Aqui chamo uma função explicando como ler dados inseridos digitados pelo usuário
+    // explica também .reversed() com strings, readln(), scanner
+    digitedkt()
+
+}
 
 //Assim se muda o tipo de uma variável, cuidado com isso
 fun tradingtypevariables() {

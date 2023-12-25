@@ -11,6 +11,10 @@ import kotlin.random.Random
     O jogo acaba quando o número tentado for o número correto.
  */
 
+fun main() {
+    exerciseThreeRepeating()
+}
+
 fun exerciseThreeRepeating() {
 
     // Sempre vai gerar o número desde o primeiro colocado até um antes do segundo

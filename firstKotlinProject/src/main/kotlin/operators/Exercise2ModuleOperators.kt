@@ -8,6 +8,10 @@ package operators
     !(2 * 4 >= 16 / 2 && 5 == 4 + 1)
  */
 
+fun main() {
+    exerciseTwoOperators()
+}
+
 fun exerciseTwoOperators() {
     val result = !(2 * 4 >= 16 / 2 && 5 == 4 + 1)
 

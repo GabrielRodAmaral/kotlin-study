@@ -1,7 +1,27 @@
 package repeating
 
-// While
+fun main() {
+    // Aqui chamo uma função explicando while no kotlin
+    whileStructure()
 
+    // Aqui chamo uma função explicando do while no kotlin
+    doWhile()
+
+    // Aqui chamo uma função explicando for no kotlin com ranges
+    // Explica também downTo, step, until
+    forStructure()
+
+
+    // Aqui chamo uma função explicando jumps em um loop no kotlin
+    // Explica continue (pula a repetição do for) e break (para o for por completo)
+    jumps()
+
+    // Aqui chamo uma função explicando labels no kotlin
+    // repeating.labels()
+
+}
+
+// While
 fun whileStructure() {
 
     var x = 0

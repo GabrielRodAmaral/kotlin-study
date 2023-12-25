@@ -12,6 +12,10 @@ package decision
     - SÊNIOR: 65 ou mais
  */
 
+fun main() {
+    exerciseThreeDecisions()
+}
+
 fun exerciseThreeDecisions() {
 
     print("Digite uma idade: ")

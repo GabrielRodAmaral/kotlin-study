@@ -1,5 +1,20 @@
 package nullable
 
+fun main() {
+    // Aqui chamo uma função explicando variáveis com tipo nullable
+    nullableVariables()
+
+    // Aqui chamo uma função explicando safe calls com variáveis nulas
+    // Explica também smart cast
+    safeCallsNull()
+
+    // Aqui chamo uma função explicando o elvis operator
+    elvisOperator()
+
+    // Aqui chamo uma função explicando o not null assertion operator
+    nNassertionOperator()
+}
+
 // Explicando variáveis nulas
 fun nullableVariables() {
 

@@ -6,6 +6,9 @@ package decision
     Escreva um programa que receba um valor fornecido pelo teclado e diz se ele é par ou impar
  */
 
+fun main() {
+    exerciseTwoDecisions()
+}
 fun exerciseTwoDecisions() {
 
     print("Digite um número: ")

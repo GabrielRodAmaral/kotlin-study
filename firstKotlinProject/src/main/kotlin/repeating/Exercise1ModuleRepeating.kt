@@ -6,6 +6,10 @@ package repeating
     Imprima na tela a tabuada de um número de 1 a 10. O número deve ser fornecido pelo usuário
  */
 
+fun main() {
+    exerciseOneRepeating()
+}
+
 fun exerciseOneRepeating() {
 
     print("Digite o número que deseja ver a tabuada: ")

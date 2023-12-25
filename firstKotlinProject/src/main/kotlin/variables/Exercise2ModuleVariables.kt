@@ -7,6 +7,10 @@ package variables
     O arredondamento pode ser feito truncando as casas decimais.
  */
 
+fun main() {
+    exerciseTwoVariables()
+}
+
 fun exerciseTwoVariables() {
 
     print("Informe um valor decimal: ")

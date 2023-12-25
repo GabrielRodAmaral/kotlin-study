@@ -1,5 +1,26 @@
 package operators
 
+fun main() {
+    // Aqui chamo uma função explicando operadores matemáticos básicos
+    // soma, subtração, divisão, multiplicação, modal
+    firstOperators()
+
+    // Aqui chamo uma função explicando operadores relacionais (>, <, ==)
+    relationalOperators()
+
+    // Aqui chamo uma função explicando operadores lógicos (OR, AND, NOT)
+    logicalOperators()
+
+    // Aqui chamo uma função explicando operadores de atribuição
+    assignmentOperators()
+
+    // Aqui chamo uma função explicando operadores de pós incremento e pré incremento
+    incDecOperators()
+
+    // Aqui chamo uma função explicando precedência de operadores
+    precedenceOperators()
+}
+
 fun firstOperators() {
 
     // soma

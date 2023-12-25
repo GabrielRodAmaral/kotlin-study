@@ -1,5 +1,16 @@
 package decision
 
+fun main() {
+    ifStructure()
+
+    ifElse()
+
+    ifReturn()
+
+    whenStructure()
+
+}
+
 // explicando if
 fun ifStructure() {
 

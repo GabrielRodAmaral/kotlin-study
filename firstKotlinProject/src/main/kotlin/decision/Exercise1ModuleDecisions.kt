@@ -9,6 +9,10 @@ package decision
     de ser multiplicado
  */
 
+fun main() {
+    exerciseOneDecisions()
+}
+
 fun exerciseOneDecisions() {
 
     print("Digite um número: ")

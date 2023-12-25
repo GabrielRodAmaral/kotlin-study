@@ -7,6 +7,10 @@ package nullable
  * deve ser usada, a qual deve ser mascarada depois
  */
 
+fun main() {
+    exerciseOneNullable()
+}
+
 fun exerciseOneNullable() {
 
     val password: String? = null
